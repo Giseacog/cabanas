@@ -1,0 +1,99 @@
+body{
+    text-decoration: none;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+header{
+    background-color: rgba(51,51,51,255);
+    color: white;
+}
+.container-search{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 30px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    text-decoration: none;
+    color: rgba(51,51,51,255);
+    height: 100px;
+}
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    gap:100px;
+}
+.more-info{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    font-weight: bold;
+}
+button{
+    background-color: white;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container-estancias{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards-estancias{
+   background-color: rgb(237, 237, 237);
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-rules{
+    background-color: rgb(237, 237, 237);
+    text-decoration: none;
+    color: black;
+    padding: 32px 80px;
+}
+.container-rules h1{
+    display: flex;
+    justify-content: center;
+}
+.rules{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    li{
+        width: 55%;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    height: 120px;
+    font: bold;
+    font-size: 12px
+   
+}
