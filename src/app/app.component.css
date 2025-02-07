@@ -1,9 +1,8 @@
-body{
-    text-decoration: none;
+ body{ 
     font-size: 12px;
 }
 li{
-    list-style: none;
+    list-style-type: none;
 }
 h1{
     font-size: 32px;
@@ -25,6 +24,7 @@ header{
     justify-content: space-between;
     font-size: 12px;
     height: 30px;
+    
 }
 
 .container-header{
@@ -36,13 +36,7 @@ header{
     color: rgba(51,51,51,255);
     height: 100px;
 }
-.menu-nav{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    gap:100px;
-}
+
 .more-info{
     display: flex;
     justify-content: center;
@@ -59,34 +53,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-.container-estancias{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.cards-estancias{
-   background-color: rgb(237, 237, 237);
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-.container-rules{
-    background-color: rgb(237, 237, 237);
-    text-decoration: none;
-    color: black;
-    padding: 32px 80px;
-}
-.container-rules h1{
-    display: flex;
-    justify-content: center;
-}
-.rules{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    li{
-        width: 55%;
-    }
-}
 footer{
     display: flex;
     justify-content: center;;

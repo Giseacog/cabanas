@@ -1,0 +1,7 @@
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    gap:100px;
+}

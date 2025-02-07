@@ -1,0 +1,11 @@
+.container-rules h1{
+    display: flex;
+    justify-content: center;
+}
+.rules{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    li{
+        width: 55%;
+    }
+}

@@ -1,0 +1,10 @@
+.container-estancias{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards-estancias{
+   background-color: rgb(237, 237, 237);
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

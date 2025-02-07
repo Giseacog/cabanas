@@ -1,0 +1,13 @@
+.container-carrusel{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+img{
+    width: 600px;
+    height:400px;
+}
+.carrusel{
+    display:flex;
+    justify-content: center;
+}
