@@ -7,12 +7,12 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, EstanciasComponent, RulesComponent, CarruselComponent],
+  imports: [RouterOutlet, NavbarComponent, EstanciasComponent, RulesComponent, CarruselComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'project'; 
-  }
+}
 
  

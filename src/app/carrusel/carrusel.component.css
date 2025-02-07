@@ -1,13 +1,17 @@
-.container-carrusel{
+.front-page{
     display: flex;
     justify-content: center;
-    gap: 20px;
-}
-img{
+    gap: 40px;
     width: 600px;
     height:400px;
 }
+img{
+    width: 120px;
+    height:80px;
+    opacity: 0.5;
+}
 .carrusel{
     display:flex;
-    justify-content: center;
+    justify-content:flex-start;
+    gap: 10px;
 }

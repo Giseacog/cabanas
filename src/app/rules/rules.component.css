@@ -1,6 +1,9 @@
-.container-rules h1{
+.container-rules{
+    background-color: rgb(237, 237, 237);
+    h1{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+}
 }
 .rules{
     display: grid;

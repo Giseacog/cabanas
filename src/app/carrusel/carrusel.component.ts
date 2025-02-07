@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './carrusel.component.css'
 })
 export class CarruselComponent {
-  imagen:string="/Casaportada.webp";
+  imagen:string="/assets/Casaportada.webp";
 
   colocarImagen(num:number):void{
 
