@@ -1,6 +1,8 @@
  body{ 
-    font-size: 12px;
+    font-weight:lighter;
+    font-size: 18px;
     text-decoration: none;
+    margin: 0%;
 }
 li{
     list-style-type: none;
@@ -8,10 +10,12 @@ li{
 h1{
     font-size: 32px;
     font-weight: bold;
+    text-decoration: none;
 }
 h2{
     font-size: 20px;
 }
+
 a{
     text-decoration: underline;
     font-weight: bold;
@@ -38,7 +42,8 @@ header{
     height: 100px;
 }
 
-.more-info{
+.more-inf{
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     gap:40px;

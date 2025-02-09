@@ -1,17 +1,33 @@
+.container-front-page{
+    width: 700px;
+    padding-inline-start:40px;
+}
 .front-page{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
-    gap: 40px;
     width: 600px;
-    height:400px;
+    height:450px;
+    padding: 0 80px;
+   
 }
-img{
-    width: 120px;
-    height:80px;
-    opacity: 0.5;
-}
+
 .carrusel{
     display:flex;
-    justify-content:flex-start;
+    justify-content:center;
     gap: 10px;
+    list-style: none;
+    button{
+        background-color: white;
+        border: none;
+    }
+    img{
+        width: 120px;
+        height:80px;
+        opacity: 0.5; 
+        border-radius: 10px;
+       
+    }
+  
+   
 }
