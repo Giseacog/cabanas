@@ -12,7 +12,7 @@ export class CarruselComponent {
   colocarImagen(num:number):void{
 
     switch(num){
-      case 1: this.imagen="assets/Casa1.webp"; break;
+      case 1: this.imagen="assets/Casaportada.webp"; break;
       case 2: this.imagen="assets/recamara.webp"; break;
       case 3: this.imagen="assets/sala.webp"; break;
     }

@@ -49,24 +49,3 @@ header{
     gap:40px;
     font-weight: bold;
 }
-button{
-    background-color: white;
-    font-weight: bold;
-    color: #333;
-    border: none;
-    height: 40px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer{
-    display: flex;
-    justify-content: center;;
-    background-color: rgba(51,51,51,255);
-    color: white;
-    height: 120px;
-    font: bold;
-    font-size: 12px
-   
-}

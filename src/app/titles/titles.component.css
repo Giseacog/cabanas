@@ -1,0 +1,27 @@
+.container-footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    font: bold;
+    padding: 0 100px;
+    h2{
+        font-size: 18px
+    }
+    li{
+        list-style: none;
+    }
+    }
+button{
+   
+        background-color: white;
+        font-weight: bold;
+        color: #333;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    

@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './estancias.component.css'
 })
 export class EstanciasComponent {
-  title = 'ESTANCIAS';
   adosadoColorido={
   image: "/assets/ESTANCIA1.png",
   nombre: 'ADOSADO COLORIDO',
