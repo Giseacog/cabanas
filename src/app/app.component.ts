@@ -5,10 +5,11 @@ import { EstanciasComponent } from './estancias/estancias.component';
 import { RulesComponent } from './rules/rules.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { TitlesComponent } from './titles/titles.component';
+import { ReservationsComponent } from './reservations/reservations.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, EstanciasComponent, RulesComponent, CarruselComponent, TitlesComponent],
+  imports: [RouterOutlet, NavbarComponent, EstanciasComponent, RulesComponent, CarruselComponent, TitlesComponent, ReservationsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
