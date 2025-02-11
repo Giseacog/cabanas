@@ -1,35 +1,26 @@
-
-<section class="reservations"> 
-    <div>
-        <ul class="huesped">
-            <li>
-                <p>HUESPEDES</p>
-                <p>NOCHES</p>
-            </li>
-            <li>
-                <button (click)="incrementarHuesped()">+</button>
-                <p>1</p>
-                <button (click)="decrementarHuesped()">-</button>
-                <button (click)="incrementarNoches()">+</button>
-                <p>1   </p>
-                <button (click)="decrementarNoches()">-</button>
-            </li>
-        </ul>
-</div>
-<div>
-    <hr>
-    <br>
-    <p>EXTRAS</p>
-    <ul class="EXTRAS">
-        <li>MASCOTA</li>
-        <li>CALEFACCION</li>
-        <li>RUTA DE MONTANA</li>
-        <li>SEDERISMO</li>
-        <li>VISTA A LA CASCADA</li>
-    </ul>
-    <br>
-    <hr>
-    <p>TOTAL IMPUESTOS {{total}}</p>
+<div class="reservation-container">
+    <div class="adding">
+      <label>Huéspedes</label>
+      <button (click)="decrementarHuesped()">-</button>
+      <span>{{ huespedes }}</span>
+      <button (click)="incrementarHuesped()">+</button>
+    </div>
+    <div class="adding">
+      <label>Noches</label>
+      <button (click)="decrementarNoches()">-</button>
+      <span>{{ noches }}</span>
+      <button (click)="incrementarNoches()">+</button>
+    </div>
+  
+    <div class="extras">
+      <h3>Extras</h3>
+      <div>
+      </div>
+    </div>
+    <div class="total">
+      <h3>Total con impuestos</h3>
+      <p>${{ total }} MXN</p>
+    </div>
     <button class="reservar">Reservar</button>
-</div>
-</section>
+  </div>
+  

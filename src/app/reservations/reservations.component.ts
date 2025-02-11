@@ -49,12 +49,6 @@ import { Extras } from '../extras'
       this.calcularTotal();
     }
   }
-
-  toggleExtra(index: number) {
-    this.extra[index].selected = !this.extra[index].selected;
-    this.calcularTotal();
-  }
-
   calcularTotal() {
     let extrasTotal = this.extra
 }
