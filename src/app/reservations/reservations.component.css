@@ -1,0 +1,28 @@
+
+.reservations{
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+}
+.huesped{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: orange;
+  font-weight: bold;
+  button{
+    height: 20px;
+    width: 20px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 100%;
+  }
+  li{
+    list-style: none;
+  }
+}
+.reservar{
+  background-color: rgb(189, 189, 189);
+  border-radius: 10px;
+  border-color: rgb(189, 189, 189);
+  
+}

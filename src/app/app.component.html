@@ -20,20 +20,20 @@
     </ul>
     <hr>
   </div>
-
   <app-navbar></app-navbar>
   <div class="container-header">
-    <ul>
-      <li>
-        <h1>ESTANCIAS</h1>
-        <h2>MAS DETALLES</h2>
-      </li>
-    </ul>
+    <app-titulos></app-titulos>
   </div>
 </header>
 <main>
-<app-carrusel></app-carrusel>
-    <app-reservations></app-reservations>
+  <div class="principal-container">
+    <div class="componente1">
+      <app-carrusel></app-carrusel>
+    </div>
+    <div class="componente2">
+      <app-reservations></app-reservations>
+    </div>
+  </div>
   <section>
     <ul class="more-inf">
       <li>
@@ -51,10 +51,18 @@
         <p>2 ANOS DE EXPERIENCIA</p>
       </li>
     </ul>
-  <app-estancias></app-estancias>
   </section>
-  <app-rules></app-rules>
+  <section class="container-estancias">
+  <app-titulos></app-titulos>
+</section>
+<app-estancias></app-estancias>
+  <section>
+    <app-rules></app-rules>
+  </section>
 </main>
-<app-titles></app-titles>
+<footer>
+    <h1>INSPIRACION PARA FUTURAS ESCAPADAS</h1>
+    <h2>SIGUE DESCUBRIENDO LA CATEGORIA DE LAS CABANAS</h2>
+</footer>
 </body>
 </html>

@@ -23,7 +23,7 @@ import { Extras } from '../extras'
   ];
   
   constructor() {
-    this.calcularTotal(); // Asegurar que el total se calcule al iniciar
+    this.calcularTotal();
   }
 
   incrementarHuesped() {
@@ -57,9 +57,5 @@ import { Extras } from '../extras'
 
   calcularTotal() {
     let extrasTotal = this.extra
-      .filter(extras => extras.selected)
-      .reduce((sum, extra) => sum + extras.price, 0);
-
-    this.total = (this.precioInicial * this.noches) + ((this.huespedes - 1) * 500) + extrasTotal;
-  }
 }
+ }

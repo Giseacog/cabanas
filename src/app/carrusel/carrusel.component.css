@@ -1,6 +1,11 @@
 .container-front-page{
-    width: 700px;
+    /*width: 700px;
     padding-inline-start:40px;
+}*/
+width:100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px
 }
 .front-page{
     margin-top: 80px;
